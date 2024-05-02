@@ -1,3 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+.rojo{
+    color: red;
+}
+.azul{
+    color: blue;
+}
+footer{
+    background-color: grey;
+}
+.blanco{
+    color: white;
+}
+.verde{
+    color: green;
+}
 body{
-    color: blueviolet;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  background-color: rgb(190, 190, 190);
+}
+.encabezado{
+    background-image: url(./imagenes/Razas/background.jpg);
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+padding: 2rem;
+height: 30vh;
+}
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+}
+.menuSuperior li{
+    display: inline-block;
+    padding: 2rem;
+}
+.menuSuperior a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.irapie a{
+color: black;
+float: right;
 }
