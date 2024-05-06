@@ -1,57 +1,120 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 10px;
 }
-.rojo{
+
+.rojo {
     color: red;
 }
-.azul{
+
+.azul {
     color: blue;
 }
-footer{
+
+footer {
     background-color: grey;
+    clear: both;
+    padding: 1rem;
 }
-.blanco{
+
+.blanco {
     color: white;
 }
-.verde{
+
+.verde {
     color: green;
 }
-body{
+
+body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  background-color: rgb(190, 190, 190);
+    background-color: rgb(190, 190, 190);
 }
-.encabezado{
+
+.encabezado {
     background-image: url(./imagenes/Razas/background.jpg);
-background-color: black;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: bottom;
-padding: 2rem;
-height: 30vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 2rem;
+    height: 30vh;
 }
-.menuSuperior{
+
+.menuSuperior {
     list-style: none;
     text-align: center;
 }
-.menuSuperior li{
+
+.menuSuperior li {
     display: inline-block;
     padding: 2rem;
 }
-.menuSuperior a{
+
+.menuSuperior a {
     text-decoration: none;
     color: black;
     font-weight: 700;
     padding: 2rem;
     font-size: 1.2rem;
 }
-.irapie a{
-color: black;
-float: right;
+
+.irapie a {
+    color: black;
+    float: right;
+}
+
+.boxmodel1,
+.boxmodel2 {
+    float: left;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px;
+    margin: 40px;
+    overflow: auto;
+    border: solid 2px black;
+
+}
+
+.boxmodel {
+    display: inline-block;
+}
+
+/* contenido Razas*/
+.contenidorazas {
+    float: left;
+    background-color: rgb(252, 221, 248);
+    padding: 2rem;
+    width: 70%;
+    
+}
+
+.imgRazas {
+    
+    background-color: rgba(228, 178, 190, 0.404);
+    padding: 2rem;
+    width: 50%;
+}
+
+.imgRazas img {
+    width: 100%;
+    box-shadow: 5px 10px pink;
+    border-radius: 3px;
+
+}
+.sugerencias{
+    background-color: coral;
+    border: dotted 2px black;
+    padding: 2rem;
+    line-height: 2rem;
+    width: 30%;
+    float: right;
 }
